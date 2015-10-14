@@ -1,0 +1,48 @@
+Performing C++ SOURCE FILE Test _HAS_CXX11_FLAG failed with the following output:
+Change Dir: /input/FairShipRun/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec9323105/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec9323105.dir/build.make CMakeFiles/cmTryCompileExec9323105.dir/build
+gmake[1]: Entering directory `/input/FairShipRun/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /input/FairShipRun/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec9323105.dir/src.cxx.o
+/usr/bin/c++    -D_HAS_CXX11_FLAG   -std=c++11 -o CMakeFiles/cmTryCompileExec9323105.dir/src.cxx.o -c /input/FairShipRun/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option "-std=c++11"
+gmake[1]: Leaving directory `/input/FairShipRun/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec9323105.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec9323105/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_STD_FLAG failed with the following output:
+Change Dir: /input/FairShipRun/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2028604927/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2028604927.dir/build.make CMakeFiles/cmTryCompileExec2028604927.dir/build
+gmake[1]: Entering directory `/input/FairShipRun/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /input/FairShipRun/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2028604927.dir/src.cxx.o
+/usr/bin/c++    -DHAS_STD_FLAG   -std=c++03 -o CMakeFiles/cmTryCompileExec2028604927.dir/src.cxx.o -c /input/FairShipRun/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option "-std=c++03"
+gmake[1]: Leaving directory `/input/FairShipRun/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2028604927.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec2028604927/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_STD_FLAG_ALTERNATIVE failed with the following output:
+Change Dir: /input/FairShipRun/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1465989410/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1465989410.dir/build.make CMakeFiles/cmTryCompileExec1465989410.dir/build
+gmake[1]: Entering directory `/input/FairShipRun/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /input/FairShipRun/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1465989410.dir/src.cxx.o
+/usr/bin/c++    -DHAS_STD_FLAG_ALTERNATIVE   --std=c++03 -o CMakeFiles/cmTryCompileExec1465989410.dir/src.cxx.o -c /input/FairShipRun/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option "-std=c++03"
+gmake[1]: Leaving directory `/input/FairShipRun/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1465989410.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec1465989410/fast] Error 2
+
+Source file was:
+int main() { return 0;}
